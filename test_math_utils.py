@@ -33,4 +33,5 @@ def test_divide(math_utils):
     assert math_utils.divide(-4, 2) == -2.0  
     assert math_utils.divide(-4, -2) == 2.0  
     assert math_utils.divide(4, -2) == -2.0  
+    assert math_utils.divide(4, -1) == -1.0  
 
